@@ -1,0 +1,8 @@
+# First, ignore everything in the root folder.
+/*
+# Now, whitelist the needed directories. Every file in those will be whitelisted.
+!/assets/
+!/src/
+# And all the files you're interested in.
+!build.gradle
+!.gitignore
